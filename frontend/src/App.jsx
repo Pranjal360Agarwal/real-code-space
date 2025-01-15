@@ -141,8 +141,7 @@ const App = () => {
           Leave Room
         </button>
       </div>
-
-      <div className="editor-wrapper">
+  <div className="editor-wrapper">
         <Editor
           height={"100%"}
           defaultLanguage={language}
