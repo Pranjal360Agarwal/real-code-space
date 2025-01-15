@@ -15,7 +15,7 @@ const App = () => {
   const [users, setUsers] = useState([]);
   const [typing, setTyping] = useState("");
   const [outPut, setOutPut] = useState("");
-  const [version, setVersion] = useState("*");
+  const [version] = useState("*");
 
   useEffect(() => {
     socket.on("userJoined", (users) => {
